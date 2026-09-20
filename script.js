@@ -51,10 +51,5 @@ btn.addEventListener('click', () => {
   .then((result)=>{
     result = result+10;
     output.innerText = `Result ${result}`;
-    return new Promise((resolve,reject)=>{
-      setTimeout(()=>{
-        resolve(result);
-      },1000)
-    })
   })
 });
