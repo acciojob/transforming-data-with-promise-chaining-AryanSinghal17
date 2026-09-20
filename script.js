@@ -50,6 +50,6 @@ btn.addEventListener('click', () => {
 
   .then((result)=>{
     result = result+10;
-    output.innerText = `Result ${result}`;
+    output.innerText = `Final Result ${result}`;
   })
 });
