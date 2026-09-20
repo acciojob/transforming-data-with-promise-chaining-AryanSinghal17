@@ -20,7 +20,7 @@ btn.addEventListener('click', () => {
 
   .then((result)=>{
     result = result*2;
-    output.innerText = `Result ${result}`;
+    output.innerText = `Result: ${result}`;
     return new Promise((resolve,reject)=>{
       setTimeout(()=>{
         resolve(result);
@@ -30,7 +30,7 @@ btn.addEventListener('click', () => {
 
   .then((result)=>{
     result = result - 3;
-    output.innerText = `Result ${result}`;
+    output.innerText = `Result: ${result}`;
     return new Promise((resolve,reject)=>{
       setTimeout(()=>{
         resolve(result);
@@ -40,7 +40,7 @@ btn.addEventListener('click', () => {
 
   .then((result)=>{
     result = result/2;
-    output.innerText = `Result ${result}`;
+    output.innerText = `Result: ${result}`;
     return new Promise((resolve,reject)=>{
       setTimeout(()=>{
         resolve(result);
@@ -50,6 +50,6 @@ btn.addEventListener('click', () => {
 
   .then((result)=>{
     result = result+10;
-    output.innerText = `Final Result ${result}`;
+    output.innerText = `Final Result: ${result}`;
   })
 });
